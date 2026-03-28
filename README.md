@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gtuttobene/gitsquid-releases/main/icon.png" width="128" alt="GitSquid">
+  <img src="https://raw.githubusercontent.com/TheMax98000/gitsquid-releases/main/icon.png" width="128" alt="GitSquid">
 </p>
 
 <h1 align="center">GitSquid</h1>
@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/gtuttobene/gitsquid-releases/releases/latest">
-    <img src="https://img.shields.io/github/v/release/gtuttobene/gitsquid-releases?style=flat-square&color=00bcd4" alt="Latest Release">
+  <a href="https://github.com/TheMax98000/gitsquid-releases/releases/latest">
+    <img src="https://img.shields.io/github/v/release/TheMax98000/gitsquid-releases?style=flat-square&color=00bcd4" alt="Latest Release">
   </a>
   <img src="https://img.shields.io/badge/platforms-macOS%20%7C%20Windows%20%7C%20Linux-58a6ff?style=flat-square" alt="Platforms">
   <img src="https://img.shields.io/badge/license-proprietary-768390?style=flat-square" alt="License">
@@ -24,7 +24,7 @@
 GitSquid is a cross-platform Git GUI client built for developers who want the power of GitKraken without the aggressive pricing. Beautiful, fast, and packed with features.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gtuttobene/gitsquid-releases/main/screenshot.png" alt="GitSquid Screenshot" width="900">
+  <img src="https://raw.githubusercontent.com/TheMax98000/gitsquid-releases/main/screenshot.png" alt="GitSquid Screenshot" width="900">
 </p>
 
 ## Features
@@ -70,11 +70,11 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 
 | Platform | Download |
 |----------|----------|
-| **macOS** (Apple Silicon) | [GitSquid-1.2.0-mac.dmg](https://github.com/gtuttobene/gitsquid-releases/releases/latest) |
-| **Windows** | Coming soon |
-| **Linux** | Coming soon |
+| **macOS** (Apple Silicon) | [GitSquid-1.2.0-mac.dmg](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.2.0/GitSquid-1.2.0-mac.dmg) |
+| **Windows** | [GitSquid-1.2.0-win-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.2.0/GitSquid-1.2.0-win-setup.exe) |
+| **Linux** | [GitSquid-1.2.0-linux.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.2.0/GitSquid-1.2.0-linux.AppImage) |
 
-> Go to [Releases](https://github.com/gtuttobene/gitsquid-releases/releases) for all versions.
+> Go to [Releases](https://github.com/TheMax98000/gitsquid-releases/releases) for all versions.
 
 ## Installation
 
@@ -136,5 +136,5 @@ Profiles, integrations, keyboard shortcuts, and language selection.
 
 <p align="center">
   <strong>GitSquid</strong> &mdash; Git made visual.<br>
-  <a href="https://github.com/gtuttobene/gitsquid-releases/releases/latest">Download now</a>
+  <a href="https://github.com/TheMax98000/gitsquid-releases/releases/latest">Download now</a>
 </p>
