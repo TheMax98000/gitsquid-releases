@@ -77,29 +77,24 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 ## Screenshots
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TheMax98000/gitsquid-releases/main/screenshot2.png" alt="GitSquid — Diff View" width="900">
+  <img src="https://raw.githubusercontent.com/TheMax98000/gitsquid-releases/main/screenshot2.png" alt="GitSquid" width="900">
 </p>
-<p align="center"><em>Diff viewer with unified/split/blame modes and partial staging</em></p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TheMax98000/gitsquid-releases/main/screenshot3.png" alt="GitSquid — Light Theme" width="900">
+  <img src="https://raw.githubusercontent.com/TheMax98000/gitsquid-releases/main/screenshot3.png" alt="GitSquid" width="900">
 </p>
-<p align="center"><em>Light theme</em></p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TheMax98000/gitsquid-releases/main/screenshot4.png" alt="GitSquid — Settings" width="900">
+  <img src="https://raw.githubusercontent.com/TheMax98000/gitsquid-releases/main/screenshot4.png" alt="GitSquid" width="900">
 </p>
-<p align="center"><em>Settings — Profiles, Integrations, Appearance, Language</em></p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TheMax98000/gitsquid-releases/main/screenshot5.png" alt="GitSquid — Statistics" width="900">
+  <img src="https://raw.githubusercontent.com/TheMax98000/gitsquid-releases/main/screenshot5.png" alt="GitSquid" width="900">
 </p>
-<p align="center"><em>Repository statistics with activity heatmap</em></p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TheMax98000/gitsquid-releases/main/screenshot6.png" alt="GitSquid — Terminal" width="900">
+  <img src="https://raw.githubusercontent.com/TheMax98000/gitsquid-releases/main/screenshot6.png" alt="GitSquid" width="900">
 </p>
-<p align="center"><em>Integrated terminal</em></p>
 
 ## Download
 
