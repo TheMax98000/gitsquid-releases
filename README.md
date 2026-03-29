@@ -24,7 +24,7 @@
 GitSquid is a cross-platform Git GUI client built for developers who want the power of GitKraken without the aggressive pricing. Beautiful, fast, and packed with features.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TheMax98000/gitsquid-releases/main/screenshot.png" alt="GitSquid Screenshot" width="900">
+  <img src="https://raw.githubusercontent.com/TheMax98000/gitsquid-releases/main/screenshot.png" alt="GitSquid — Commit Graph" width="900">
 </p>
 
 ## Features
@@ -32,37 +32,74 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 ### Core Git
 - **Interactive commit graph** — Canvas-based with virtual scrolling, Gravatar avatars, branch coloring
 - **Full git workflow** — Stage, unstage, commit (with amend), push, pull, fetch
+- **Partial staging** — Stage/unstage individual hunks from the diff view
+- **Drag & drop staging** — Drag files and folders between unstaged/staged
 - **Branch management** — Create, delete, rename, checkout, merge, rebase
-- **Diff viewer** — Unified, split, and full file views with syntax highlighting
+- **Diff viewer** — Unified, split, full file, and blame views with syntax highlighting
 - **Git blame** — Inline blame with author, date, and click-to-select commit
 - **Stash management** — Save, apply, pop, drop, visible on the graph
 - **Tags** — Create, delete, push to remote
 - **Cherry-pick, revert, reset** — Full context menu on commits
 - **Conflict resolution** — Accept ours/theirs per file, 3-tab diff view
 - **Auto-stash on checkout** — Automatically stash and reapply changes
+- **GPG signing** — Sign commits/tags, verified badge on graph and detail
+- **Worktrees** — Create, remove, lock/unlock, open in new tab
+- **Reflog viewer** — Complete action history with color-coded badges
+- **Git LFS** — Track patterns, pull/push LFS objects, status panel
+- **Submodules** — List, init, update, open in new tab
+- **Gitflow** — Init, feature/release/hotfix start & finish
 
 ### Integrations
 - **GitHub, GitLab, BitBucket** — Connect via Personal Access Token
-- **Pull Requests** — List, create, and open PRs directly from the app
+- **Pull Requests** — List, create, review (approve, request changes, comment)
+- **Issues** — List, create, close, view detail
 - **Clone from provider** — Browse and search your remote repositories
 - **Create remote repos** — Initialize and push to GitHub/GitLab/BitBucket
 
 ### Productivity
 - **Multi-repo tabs** — Open multiple repositories, persisted across restarts
 - **Integrated terminal** — Full terminal (xterm.js + node-pty) with `Cmd+``
-- **Gitflow support** — Init, feature/release/hotfix start & finish
-- **Submodules** — List, init, update, open in new tab
 - **Profiles** — Switch between different Git identities and provider accounts
 - **Graph search** — Filter commits by message, author, or hash (`Cmd+F`)
+- **Commit templates** — Conventional commits (feat, fix, docs, etc.) one-click prefill
+- **Repository statistics** — Authors table, commit counts, GitHub-style activity heatmap
+- **Auto-updater** — Check for updates from Settings
 
 ### UI & UX
-- **Dark theme** — Professional developer-focused design
+- **Dark & Light themes** — Toggle in Settings > Appearance
 - **10 languages** — English, French, Spanish, German, Portuguese, Italian, Japanese, Chinese, Korean, Russian
 - **Keyboard shortcuts** — Full cheatsheet with `F1`
 - **Branch grouping** — `feature/xxx` branches grouped in folders
 - **File tree view** — Toggle between flat and tree layouts
-- **Context menus** — Rich right-click menus everywhere (graph, branches, tags, stashes)
+- **Context menus** — Rich right-click menus on files, commits, branches, tags, stashes, folders
 - **Toast notifications** — Feedback for every action
+
+## Screenshots
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TheMax98000/gitsquid-releases/main/screenshot2.png" alt="GitSquid — Diff View" width="900">
+</p>
+<p align="center"><em>Diff viewer with unified/split/blame modes and partial staging</em></p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TheMax98000/gitsquid-releases/main/screenshot3.png" alt="GitSquid — Light Theme" width="900">
+</p>
+<p align="center"><em>Light theme</em></p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TheMax98000/gitsquid-releases/main/screenshot4.png" alt="GitSquid — Settings" width="900">
+</p>
+<p align="center"><em>Settings — Profiles, Integrations, Appearance, Language</em></p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TheMax98000/gitsquid-releases/main/screenshot5.png" alt="GitSquid — Statistics" width="900">
+</p>
+<p align="center"><em>Repository statistics with activity heatmap</em></p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TheMax98000/gitsquid-releases/main/screenshot6.png" alt="GitSquid — Terminal" width="900">
+</p>
+<p align="center"><em>Integrated terminal</em></p>
 
 ## Download
 
@@ -70,9 +107,9 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 
 | Platform | Download |
 |----------|----------|
-| **macOS** (Apple Silicon) | [GitSquid-1.2.0-mac.dmg](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.2.0/GitSquid-1.2.0-mac.dmg) |
-| **Windows** | [GitSquid-1.2.0-win-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.2.0/GitSquid-1.2.0-win-setup.exe) |
-| **Linux** | [GitSquid-1.2.0-linux.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.2.0/GitSquid-1.2.0-linux.AppImage) |
+| **macOS** (Apple Silicon) | [GitSquid-1.3.0-mac.dmg](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.3.0/GitSquid-1.3.0-mac.dmg) |
+| **Windows** | [GitSquid-1.3.0-win-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.3.0/GitSquid-1.3.0-win-setup.exe) |
+| **Linux** | [GitSquid-1.3.0-linux.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.3.0/GitSquid-1.3.0-linux.AppImage) |
 
 > Go to [Releases](https://github.com/TheMax98000/gitsquid-releases/releases) for all versions.
 
@@ -117,20 +154,7 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 | `Escape` | Close / deselect |
 | Double-click branch | Checkout |
 | Right-click | Context menu |
-
-## Screenshots
-
-### Commit Graph
-Interactive graph with avatars, branch coloring, stash nodes, and search.
-
-### Diff Viewer
-Unified, split, and blame views with syntax highlighting.
-
-### Integrated Terminal
-Full terminal access without leaving the app.
-
-### Settings
-Profiles, integrations, keyboard shortcuts, and language selection.
+| Drag file | Stage/unstage |
 
 ---
 
