@@ -5,8 +5,8 @@
 <h1 align="center">GitSquid</h1>
 
 <p align="center">
-  <strong>A powerful free Git GUI client</strong><br>
-  <em>The intuitive alternative to GitKraken</em>
+  <strong>A powerful Git GUI client</strong><br>
+  <em>The intuitive, affordable alternative — Free &amp; Pro (€49/year)</em>
 </p>
 
 <p align="center">
@@ -49,8 +49,13 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 - **Submodules** — List, init, update, open in new tab
 - **Gitflow** — Init, feature/release/hotfix start & finish
 
+### License & Pro
+- **Free tier** — Core Git features, 3 tabs, 1 profile, 1 integration
+- **Pro tier** — €49/year, unlimited everything + advanced features
+- **Offline validation** — License works without internet (7-day grace period)
+
 ### Integrations
-- **GitHub, GitLab, BitBucket** — Connect via Personal Access Token
+- **GitHub, GitLab, BitBucket** — Connect via Personal Access Token / API Token
 - **Pull Requests** — List, create, review (approve, request changes, comment)
 - **Issues** — List, create, close, view detail
 - **Clone from provider** — Browse and search your remote repositories
@@ -64,6 +69,8 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 - **Commit templates** — Conventional commits (feat, fix, docs, etc.) one-click prefill
 - **Repository statistics** — Authors table, commit counts, GitHub-style activity heatmap
 - **Auto-updater** — Check for updates from Settings
+- **Progressive loading** — Loading bar with step indicators when opening large repos
+- **Clone progress** — Real-time progress bar during clone (Counting, Receiving, Resolving)
 
 ### UI & UX
 - **Dark & Light themes** — Toggle in Settings > Appearance
@@ -102,9 +109,9 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 
 | Platform | Download |
 |----------|----------|
-| **macOS** (Apple Silicon) | [GitSquid-1.3.0-mac.dmg](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.3.0/GitSquid-1.3.0-mac.dmg) |
-| **Windows** | [GitSquid-1.3.0-win-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.3.0/GitSquid-1.3.0-win-setup.exe) |
-| **Linux** | [GitSquid-1.3.0-linux.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.3.0/GitSquid-1.3.0-linux.AppImage) |
+| **macOS** (Apple Silicon) | [GitSquid-1.4.0-mac.dmg](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.4.0/GitSquid-1.4.0-mac.dmg) |
+| **Windows** | [GitSquid-1.4.0-win-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.4.0/GitSquid-1.4.0-win-setup.exe) |
+| **Linux** | [GitSquid-1.4.0-linux.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.4.0/GitSquid-1.4.0-linux.AppImage) |
 
 > Go to [Releases](https://github.com/TheMax98000/gitsquid-releases/releases) for all versions.
 
