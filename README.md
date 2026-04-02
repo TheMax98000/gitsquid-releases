@@ -109,9 +109,9 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 
 | Platform | Download |
 |----------|----------|
-| **macOS** (Apple Silicon) | [GitSquid-1.4.4-mac.dmg](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.4.4/GitSquid-1.4.4-mac.dmg) |
-| **Windows** | [GitSquid-1.4.4-win-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.4.4/GitSquid-1.4.4-win-setup.exe) |
-| **Linux** | [GitSquid-1.4.4-linux.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.4.4/GitSquid-1.4.4-linux.AppImage) |
+| **macOS** (Apple Silicon) | [GitSquid-1.4.5-mac.dmg](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.4.5/GitSquid-1.4.5-mac.dmg) |
+| **Windows** | [GitSquid-1.4.5-win-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.4.5/GitSquid-1.4.5-win-setup.exe) |
+| **Linux** | [GitSquid-1.4.5-linux.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.4.5/GitSquid-1.4.5-linux.AppImage) |
 
 > Go to [Releases](https://github.com/TheMax98000/gitsquid-releases/releases) for all versions.
 
