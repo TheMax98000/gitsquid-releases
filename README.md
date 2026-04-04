@@ -39,7 +39,8 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 - **Git blame** — Inline blame with author, date, and click-to-select commit
 - **Stash management** — Save, apply, pop, drop, visible on the graph
 - **Tags** — Create, delete, push to remote
-- **Cherry-pick, revert, reset** — Full context menu on commits
+- **Cherry-pick, revert, reset** — Full context menu on commits, multi-commit cherry-pick with Shift/Cmd select
+- **Patch export/import** — Export commits as .patch files, import patches
 - **3-way merge editor** — Visual conflict resolution with Base/Ours/Theirs columns, per-block resolution (Use Ours/Theirs/Both), full code editor with syntax highlighting for the result
 - **Auto-stash on checkout** — Automatically stash and reapply changes
 - **GPG signing** — Sign commits/tags, verified badge on graph and detail
@@ -78,7 +79,7 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 - **Customizable keyboard shortcuts** — Remap any shortcut in Settings
 
 ### UI & UX
-- **Dark & Light themes** — Toggle in Settings > Appearance
+- **6 built-in themes + custom** — Dark, Light, Midnight, Solarized Dark, Dracula, Nord, or create your own
 - **10 languages** — English, French, Spanish, German, Portuguese, Italian, Japanese, Chinese, Korean, Russian
 - **Keyboard shortcuts** — Full cheatsheet with `F1`
 - **Branch grouping** — `feature/xxx` branches grouped in folders
@@ -128,15 +129,19 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
   <img src="https://raw.githubusercontent.com/TheMax98000/gitsquid-releases/main/screenshot11.png" alt="GitSquid — Interactive Rebase" width="900">
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TheMax98000/gitsquid-releases/main/screenshot12.png" alt="GitSquid — Custom Themes" width="900">
+</p>
+
 ## Download
 
 ### Latest Release
 
 | Platform | Download |
 |----------|----------|
-| **macOS** (Apple Silicon) | [GitSquid-1.6.0-mac.dmg](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.6.0/GitSquid-1.6.0-mac.dmg) |
-| **Windows** | [GitSquid-1.6.0-win-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.6.0/GitSquid-1.6.0-win-setup.exe) |
-| **Linux** | [GitSquid-1.6.0-linux.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.6.0/GitSquid-1.6.0-linux.AppImage) |
+| **macOS** (Apple Silicon) | [GitSquid-1.7.0-mac.dmg](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.7.0/GitSquid-1.7.0-mac.dmg) |
+| **Windows** | [GitSquid-1.7.0-win-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.7.0/GitSquid-1.7.0-win-setup.exe) |
+| **Linux** | [GitSquid-1.7.0-linux.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.7.0/GitSquid-1.7.0-linux.AppImage) |
 
 > Go to [Releases](https://github.com/TheMax98000/gitsquid-releases/releases) for all versions.
 
