@@ -32,14 +32,15 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 ### Core Git
 - **Interactive commit graph** — Canvas-based with virtual scrolling, Gravatar avatars, branch coloring
 - **Full git workflow** — Stage, unstage, commit (with amend), push, pull, fetch
-- **Partial staging** — Stage/unstage individual hunks from the diff view
+- **Partial staging** — Stage/unstage individual hunks or individual lines from the diff view
+- **Multi-select staging** — Select multiple files with Cmd/Ctrl+Click and Shift+Click, bulk stage/unstage/discard
 - **Drag & drop staging** — Drag files and folders between unstaged/staged
 - **Branch management** — Create, delete, rename, checkout, merge, rebase
-- **Diff viewer** — Unified, split, full file, and blame views with syntax highlighting
+- **Diff viewer** — Unified, split, full file, and blame views with syntax highlighting (CodeMirror 6)
 - **Git blame** — Inline blame with author, date, and click-to-select commit
-- **Stash management** — Save, apply, pop, drop, visible on the graph
+- **Stash management** — Save, apply, pop, drop, clear all, visible on the graph
 - **Tags** — Create, delete, push to remote
-- **Cherry-pick, revert, reset** — Full context menu on commits, multi-commit cherry-pick with Shift/Cmd select
+- **Cherry-pick, revert, reset** — Full context menu on commits, multi-commit cherry-pick with Shift/Cmd select, commit deselection
 - **Patch export/import** — Export commits as .patch files, import patches
 - **3-way merge editor** — Visual conflict resolution with Base/Ours/Theirs columns, per-block resolution (Use Ours/Theirs/Both), full code editor with syntax highlighting for the result
 - **Auto-stash on checkout** — Automatically stash and reapply changes
@@ -67,7 +68,7 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 
 ### Productivity
 - **Multi-repo tabs** — Open multiple repositories, persisted across restarts
-- **Integrated terminal** — Full terminal (xterm.js + node-pty) with `Cmd+``
+- **Integrated terminal** — Full terminal (xterm.js + portable-pty) with `Cmd+``
 - **Profiles** — Switch between different Git identities and provider accounts
 - **Graph search** — Filter commits by message, author, or hash (`Cmd+F`)
 - **Commit templates** — Conventional commits (feat, fix, docs, etc.) one-click prefill
@@ -139,17 +140,18 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 
 | Platform | Download |
 |----------|----------|
-| **macOS** (Apple Silicon) | [GitSquid-1.7.4-mac.dmg](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.7.4/GitSquid-1.7.4-mac.dmg) |
-| **Windows** | [GitSquid-1.7.4-win-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.7.4/GitSquid-1.7.4-win-setup.exe) |
-| **Linux** | [GitSquid-1.7.4-linux.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v1.7.4/GitSquid-1.7.4-linux.AppImage) |
+| **macOS** | [GitSquid_2.0.0_macos.zip](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.0.0/GitSquid_2.0.0_macos.zip) |
+| **Windows** | [GitSquid_2.0.0_x64-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.0.0/GitSquid_2.0.0_x64-setup.exe) |
+| **Linux** (AppImage) | [GitSquid_2.0.0_amd64.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.0.0/GitSquid_2.0.0_amd64.AppImage) |
+| **Linux** (deb) | [GitSquid_2.0.0_amd64.deb](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.0.0/GitSquid_2.0.0_amd64.deb) |
 
 > Go to [Releases](https://github.com/TheMax98000/gitsquid-releases/releases) for all versions.
 
 ## Installation
 
 ### macOS
-1. Download the `.dmg` file
-2. Open it and drag GitSquid to your Applications folder
+1. Download the `.zip` file
+2. Extract it and move GitSquid.app to your Applications folder
 3. Launch GitSquid from your Applications
 
 ### Windows
@@ -166,12 +168,14 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 
 | Layer | Technology |
 |-------|-----------|
-| Desktop | Electron |
+| Desktop | Tauri 2.x |
+| Backend | Rust |
 | Frontend | React 18 + TypeScript |
 | State | Zustand |
-| Git | simple-git (CLI wrapper) |
+| Git | git CLI (via std::process::Command) |
 | Graph | Canvas 2D (virtual scrolling) |
-| Terminal | xterm.js + node-pty |
+| Code Editor | CodeMirror 6 |
+| Terminal | xterm.js + portable-pty |
 | Styling | CSS Modules + custom properties |
 
 ## Keyboard Shortcuts
