@@ -140,17 +140,17 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 
 | Platform | Download |
 |----------|----------|
-| **macOS** | [GitSquid_2.0.3_macos.zip](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.0.3/GitSquid_2.0.3_macos.zip) |
-| **Windows** | [GitSquid_2.0.3_x64-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.0.3/GitSquid_2.0.3_x64-setup.exe) |
-| **Linux** | [GitSquid_2.0.3_amd64.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.0.3/GitSquid_2.0.3_amd64.AppImage) |
+| **macOS** | [GitSquid.app.tar.gz](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.0.4/GitSquid.app.tar.gz) |
+| **Windows** | [GitSquid_2.0.4_x64-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.0.4/GitSquid_2.0.4_x64-setup.exe) |
+| **Linux** | [GitSquid_2.0.4_amd64.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.0.4/GitSquid_2.0.4_amd64.AppImage) |
 
 > Go to [Releases](https://github.com/TheMax98000/gitsquid-releases/releases) for all versions.
 
 ## Installation
 
 ### macOS
-1. Download the `.zip` file
-2. Extract it and move GitSquid.app to your Applications folder
+1. Download the `.app.tar.gz` file
+2. Extract it (double-click or `tar -xzf GitSquid.app.tar.gz`) and move GitSquid.app to your Applications folder
 3. Launch GitSquid from your Applications
 
 ### Windows
