@@ -53,6 +53,8 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 - **Interactive rebase** — Visual editor with drag & drop, per-commit actions (pick, squash, fixup, drop, reword, edit)
 - **Undo** — Revert last git action (Cmd+Z)
 - **Image diff** — Side-by-side preview for image file changes
+- **Git hooks editor** — View, edit, enable/disable and delete hooks in `.git/hooks` with shell syntax highlighting
+- **File history** — Right-click a file in a commit to see every commit that touched it
 
 ### License & Pro
 - **Free tier** — Core Git features, 3 tabs, 1 profile, 1 integration
@@ -61,7 +63,7 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 
 ### Integrations
 - **GitHub, GitLab, BitBucket** — Connect via Personal Access Token / API Token
-- **Pull Requests** — List, create, review (approve, request changes, comment)
+- **Pull Requests** — List, create, review (approve, request changes, comment), CI checks (GitHub / GitLab / Bitbucket)
 - **Issues** — List, create, close, view detail
 - **Clone from provider** — Browse and search your remote repositories
 - **Create remote repos** — Initialize and push to GitHub/GitLab/BitBucket
@@ -140,9 +142,9 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 
 | Platform | Download |
 |----------|----------|
-| **macOS** | [GitSquid_2.0.5_aarch64.app.tar.gz](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.0.5/GitSquid_2.0.5_aarch64.app.tar.gz) |
-| **Windows** | [GitSquid_2.0.5_x64-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.0.5/GitSquid_2.0.5_x64-setup.exe) |
-| **Linux** | [GitSquid_2.0.5_amd64.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.0.5/GitSquid_2.0.5_amd64.AppImage) |
+| **macOS** | [GitSquid_2.0.6_aarch64.app.tar.gz](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.0.6/GitSquid_2.0.6_aarch64.app.tar.gz) |
+| **Windows** | [GitSquid_2.0.6_x64-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.0.6/GitSquid_2.0.6_x64-setup.exe) |
+| **Linux** | [GitSquid_2.0.6_amd64.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.0.6/GitSquid_2.0.6_amd64.AppImage) |
 
 > Go to [Releases](https://github.com/TheMax98000/gitsquid-releases/releases) for all versions.
 
@@ -150,7 +152,7 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 
 ### macOS
 1. Download the `.app.tar.gz` file
-2. Extract it (double-click or `tar -xzf GitSquid_2.0.5_aarch64.app.tar.gz`) and move GitSquid.app to your Applications folder
+2. Extract it (double-click or `tar -xzf GitSquid_2.0.6_aarch64.app.tar.gz`) and move GitSquid.app to your Applications folder
 3. Launch GitSquid from your Applications
 
 ### Windows
