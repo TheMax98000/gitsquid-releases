@@ -70,16 +70,19 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 
 ### Productivity
 - **Multi-repo tabs** — Open multiple repositories, persisted across restarts
+- **Instant tab switch cache** — Switching back to an open tab rehydrates from an in-memory snapshot (commits, branches, status, graph layout); background refresh catches external changes (LRU-capped at 8 repos)
 - **Integrated terminal** — Full terminal (xterm.js + portable-pty) with `Cmd+``
 - **Profiles** — Switch between different Git identities and provider accounts
-- **Graph search** — Filter commits by message, author, or hash (`Cmd+F`)
+- **Graph search** — Filter commits by message, author, or hash (`Cmd+F`), delegates to `git log --grep` so matches in older history aren't missed
 - **Commit templates** — Conventional commits (feat, fix, docs, etc.) one-click prefill
+- **AI commit messages** — Generate messages from a diff via Claude Code (zero-config if already installed), Anthropic API, OpenAI, or a custom provider
 - **Repository statistics** — Authors table, commit counts, GitHub-style activity heatmap
 - **Auto-updater** — Check for updates with changelog preview before downloading
 - **Progressive loading** — Loading bar with step indicators when opening large repos
 - **Clone progress** — Real-time progress bar during clone (Counting, Receiving, Resolving)
 - **Commit pagination** — Loads 500 commits initially, auto-loads more on scroll
 - **Customizable keyboard shortcuts** — Remap any shortcut in Settings
+- **Transparent command log** — `Cmd/Ctrl+Shift+L` opens a panel showing every git command the app runs (arguments, cwd, duration, exit code, stderr). Secrets are redacted. One-click "Copy for bug report"
 
 ### UI & UX
 - **6 built-in themes + custom** — Dark, Light, Midnight, Solarized Dark, Dracula, Nord, or create your own
@@ -142,9 +145,9 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 
 | Platform | Download |
 |----------|----------|
-| **macOS** | [GitSquid_2.0.6_aarch64.app.tar.gz](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.0.6/GitSquid_2.0.6_aarch64.app.tar.gz) |
-| **Windows** | [GitSquid_2.0.6_x64-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.0.6/GitSquid_2.0.6_x64-setup.exe) |
-| **Linux** | [GitSquid_2.0.6_amd64.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.0.6/GitSquid_2.0.6_amd64.AppImage) |
+| **macOS** | [GitSquid_2.1.0_aarch64.app.tar.gz](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.1.0/GitSquid_2.1.0_aarch64.app.tar.gz) |
+| **Windows** | [GitSquid_2.1.0_x64-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.1.0/GitSquid_2.1.0_x64-setup.exe) |
+| **Linux** | [GitSquid_2.1.0_amd64.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.1.0/GitSquid_2.1.0_amd64.AppImage) |
 
 > Go to [Releases](https://github.com/TheMax98000/gitsquid-releases/releases) for all versions.
 
@@ -152,7 +155,7 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 
 ### macOS
 1. Download the `.app.tar.gz` file
-2. Extract it (double-click or `tar -xzf GitSquid_2.0.6_aarch64.app.tar.gz`) and move GitSquid.app to your Applications folder
+2. Extract it (double-click or `tar -xzf GitSquid_2.1.0_aarch64.app.tar.gz`) and move GitSquid.app to your Applications folder
 3. Launch GitSquid from your Applications
 
 ### Windows
@@ -187,6 +190,7 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 | `Cmd+F` | Search commits |
 | `Cmd+Enter` | Commit (in staging) |
 | `Cmd+`` ` | Toggle terminal |
+| `Cmd/Ctrl+Shift+L` | Toggle command log panel |
 | `F1` | Keyboard shortcuts |
 | `Escape` | Close / deselect |
 | Double-click branch | Checkout |
