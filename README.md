@@ -83,6 +83,12 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 - **Commit pagination** — Loads 500 commits initially, auto-loads more on scroll
 - **Customizable keyboard shortcuts** — Remap any shortcut in Settings
 - **Transparent command log** — `Cmd/Ctrl+Shift+L` opens a panel showing every git command the app runs (arguments, cwd, duration, exit code, stderr). Secrets are redacted. One-click "Copy for bug report"
+- **Conflict predictor** — Before a merge / rebase / cherry-pick, see exactly which files will conflict and preview the hunks. One-click "Resolve in scratch worktree" opens a temporary checkout in a new tab so you can fix conflicts without touching your active branch
+- **AI explain** — Right-click any commit, hunk, or file for an instant streamed breakdown (TL;DR + per-file changes + risks). Works with Claude Code, Anthropic, OpenAI, or your own provider. Pick the response language in Settings
+- **AI PR description** — "Generate with AI" in the Create Pull Request dialog streams a structured Summary / Changes / Test plan into the body, respecting your repo's `PULL_REQUEST_TEMPLATE.md` if present
+- **Pre-commit secrets scan** — Every staged commit is scanned against AWS / GitHub / GitLab / Slack / Stripe / OpenAI / Anthropic key patterns + RSA / OpenSSH / EC private keys + JWTs + high-entropy literals. Findings are listed in a warning modal with `file:line` and a redacted preview before commit
+- **Branch intent** — Attach a markdown plan to a non-main branch via native git notes (`refs/notes/gitsquid-intent`). Edit / Save / Share with team / Delete from the branch context menu. Auto-migrates after rebase
+- **Monorepo scope detector** — Pick a workspace once and the graph, search, stats and file-tree stop drowning under the rest of the repo. Auto-detects npm / pnpm / Yarn workspaces, Cargo workspaces, Nx, Turbo, Lerna and Go workspaces — or right-click any folder to scope to it. Saved per repo
 
 ### UI & UX
 - **6 built-in themes + custom** — Dark, Light, Midnight, Solarized Dark, Dracula, Nord, or create your own
@@ -143,19 +149,21 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 
 ### Latest Release
 
-| Platform | Download |
-|----------|----------|
-| **macOS** | [GitSquid_2.4.4_aarch64.app.tar.gz](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.4.4/GitSquid_2.4.4_aarch64.app.tar.gz) |
-| **Windows** | [GitSquid_2.4.4_x64-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.4.4/GitSquid_2.4.4_x64-setup.exe) |
-| **Linux** | [GitSquid_2.4.4_amd64.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.4.4/GitSquid_2.4.4_amd64.AppImage) |
+| Platform | Architecture | Download |
+|----------|----|----------|
+| **macOS** | Apple Silicon (arm64) — Intel via Rosetta | [GitSquid_2.5.0_aarch64.app.tar.gz](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.5.0/GitSquid_2.5.0_aarch64.app.tar.gz) |
+| **Windows** | x64 (Intel/AMD) | [GitSquid_2.5.0_x64-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.5.0/GitSquid_2.5.0_x64-setup.exe) |
+| **Windows** | ARM64 (Snapdragon X, Surface Pro X) | [GitSquid_2.5.0_arm64-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.5.0/GitSquid_2.5.0_arm64-setup.exe) |
+| **Linux** | x86_64 (amd64) | [GitSquid_2.5.0_amd64.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.5.0/GitSquid_2.5.0_amd64.AppImage) |
+| **Linux** | ARM64 (aarch64 — Pi 4/5, Graviton, Asahi) | [GitSquid_2.5.0_aarch64.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.5.0/GitSquid_2.5.0_aarch64.AppImage) |
 
 > Go to [Releases](https://github.com/TheMax98000/gitsquid-releases/releases) for all versions.
 
 ## Installation
 
 ### macOS
-1. Download the `.app.tar.gz` file
-2. Extract it (double-click or `tar -xzf GitSquid_2.4.4_aarch64.app.tar.gz`) and move GitSquid.app to your Applications folder
+1. Download the `.app.tar.gz` file (native arm64; runs on Intel Macs via Rosetta)
+2. Extract it (double-click or `tar -xzf GitSquid_2.5.0_aarch64.app.tar.gz`) and move GitSquid.app to your Applications folder
 3. Launch GitSquid from your Applications
 
 ### Windows
