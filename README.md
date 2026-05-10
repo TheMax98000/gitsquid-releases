@@ -151,11 +151,11 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 
 | Platform | Architecture | Download |
 |----------|----|----------|
-| **macOS** | Apple Silicon (arm64) — Intel via Rosetta | [GitSquid_2.6.1_aarch64.app.tar.gz](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.6.1/GitSquid_2.6.1_aarch64.app.tar.gz) |
-| **Windows** | x64 (Intel/AMD) | [GitSquid_2.6.1_x64-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.6.1/GitSquid_2.6.1_x64-setup.exe) |
-| **Windows** | ARM64 (Snapdragon X, Surface Pro X) | [GitSquid_2.6.1_arm64-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.6.1/GitSquid_2.6.1_arm64-setup.exe) |
-| **Linux** | x86_64 (amd64) | [GitSquid_2.6.1_amd64.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.6.1/GitSquid_2.6.1_amd64.AppImage) |
-| **Linux** | ARM64 (aarch64 — Pi 4/5, Graviton, Asahi) | [GitSquid_2.6.1_aarch64.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.6.1/GitSquid_2.6.1_aarch64.AppImage) |
+| **macOS** | Apple Silicon (arm64) — Intel via Rosetta | [GitSquid_2.7.0_aarch64.app.tar.gz](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.7.0/GitSquid_2.7.0_aarch64.app.tar.gz) |
+| **Windows** | x64 (Intel/AMD) | [GitSquid_2.7.0_x64-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.7.0/GitSquid_2.7.0_x64-setup.exe) |
+| **Windows** | ARM64 (Snapdragon X, Surface Pro X) | [GitSquid_2.7.0_arm64-setup.exe](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.7.0/GitSquid_2.7.0_arm64-setup.exe) |
+| **Linux** | x86_64 (amd64) | [GitSquid_2.7.0_amd64.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.7.0/GitSquid_2.7.0_amd64.AppImage) |
+| **Linux** | ARM64 (aarch64 — Pi 4/5, Graviton, Asahi) | [GitSquid_2.7.0_aarch64.AppImage](https://github.com/TheMax98000/gitsquid-releases/releases/download/v2.7.0/GitSquid_2.7.0_aarch64.AppImage) |
 
 > Go to [Releases](https://github.com/TheMax98000/gitsquid-releases/releases) for all versions.
 
@@ -163,7 +163,7 @@ GitSquid is a cross-platform Git GUI client built for developers who want the po
 
 ### macOS
 1. Download the `.app.tar.gz` file (native arm64; runs on Intel Macs via Rosetta)
-2. Extract it (double-click or `tar -xzf GitSquid_2.6.1_aarch64.app.tar.gz`) and move GitSquid.app to your Applications folder
+2. Extract it (double-click or `tar -xzf GitSquid_2.7.0_aarch64.app.tar.gz`) and move GitSquid.app to your Applications folder
 3. Launch GitSquid from your Applications
 
 ### Windows
